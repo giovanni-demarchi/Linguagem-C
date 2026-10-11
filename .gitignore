@@ -1,0 +1,14 @@
+
+# Executaveis
+*.exe
+
+# Arquivos de compilacao
+*.o
+*.obj
+
+# Arquivos temporarios
+*.layout
+*.depend
+
+# Configuracoes locais do VS Code
+.vscode/
