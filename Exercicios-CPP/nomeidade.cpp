@@ -1,4 +1,4 @@
-//programa para mostrar nome e idade do usuario
+//programa para mostrar a mensagem Hello world!! na tela
 
 #include <stdio.h>
 #include <stdlib.h>

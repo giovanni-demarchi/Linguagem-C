@@ -5,7 +5,7 @@
 #include <conio.h>
 #include <windows.h>
 
-int main(void) {
+main (){
 	SetConsoleOutputCP (65001);
 	
 	float rend, saldo, taxa;
@@ -23,6 +23,4 @@ int main(void) {
 	printf("\nO valor do rendimento é: %.2f", rend);
 	printf("\nO valor do saldo após a aplicação é: %.2f\n\n", saldo);
 	getch();
-
-	return 0;
 }

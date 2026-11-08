@@ -1,5 +1,3 @@
-//programa para mostrar se o carro está acima da velocidade permitida
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>

@@ -4,6 +4,6 @@
 #include <stdlib.h>
 
 main (){
-	printf ("Hello world!!\n");
+	printf ("Hello world!!\n\n");
 	system("pause");
 }

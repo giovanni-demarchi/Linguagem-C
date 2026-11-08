@@ -10,5 +10,8 @@
 *.layout
 *.depend
 
+# Arquivos de profiling
+gmon.out
+
 # Configuracoes locais do VS Code
 .vscode/

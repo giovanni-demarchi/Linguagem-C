@@ -1,10 +1,10 @@
-//programa para mostrar a media de 3 notas e se o aluno foi aprovado ou reprovado
+//programa para mostrar a mensagem Hello world!! na tela
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
 
-int main (){
+main (){
 	float n1, n2, n3, media;
 	
 	printf("Digite a primeira nota: \n");
@@ -20,15 +20,5 @@ int main (){
 	media = (n1+n2+n3)/3;
 	
 	printf("\nA media e: %5.2f \n", media);
-	
-	if (media >= 5) {
-		printf("\nAluno aprovado!\n\n\n");
-	}
-	
-	else {
-		printf("\nAluno reprovado!\n\n\n");
-	}
-	
 	system("pause");
-	return 0;
 }

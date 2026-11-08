@@ -1,11 +1,11 @@
-//programa para mostrar o valor a ser pago por quilowatts consumidos e o valor com desconto
+//programa saldo da aplicação
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
 #include <windows.h>
 
-int main(void) {
+main (){
 	SetConsoleOutputCP (65001);
 	
 	float salMin, kw, kwconsu, valorPag, valorPagDesc;
@@ -25,8 +25,6 @@ int main(void) {
 	
 	printf("O valor de cada quilowatts é: %.2f\n", kw);
 	printf("O valor a ser pago é: R$%.2f\n", valorPag);
-	printf("O valor a ser pago com desconto é: R$%.2f", valorPagDesc);
+	printf("O valor de cada quilowatts é: R$%.2f", valorPagDesc);
 	getch();
-
-	return 0;
 }
